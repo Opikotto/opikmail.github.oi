@@ -9,9 +9,9 @@ import Cart from './view/cart/Cart'
 import Electronics from './view/category/Electronics'
 function App() {
      const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
-     // if(!isLoggedIn){
-     //      return <Login />
-     // }
+     if(!isLoggedIn){
+          return <Login />
+     }
    
   return (
     <div className="App">

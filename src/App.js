@@ -9,9 +9,9 @@ import Cart from './view/cart/Cart'
 import Electronics from './view/category/Electronics'
 function App() {
      const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
-     // if(!isLoggedIn){
-     //      return <Login />
-     // }
+     if(!isLoggedIn){
+          return <Login />
+     }
    
   return (
     <div className="App">
@@ -24,7 +24,7 @@ function App() {
         <Route path="/men" element={<Men />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/electronics" element={<Electronics />} />
-        {/* <Route path="*" element="404 Not found" /> */}
+        <Route path="*" element="404 Not found" />
       </Routes>
   </BrowserRouter>
     </div>

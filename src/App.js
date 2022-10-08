@@ -24,7 +24,7 @@ function App() {
         <Route path="/men" element={<Men />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/electronics" element={<Electronics />} />
-        <Route path="*" element="404 Not found" />
+        {/* <Route path="*" element="404 Not found" /> */}
       </Routes>
   </BrowserRouter>
     </div>

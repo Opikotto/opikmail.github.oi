@@ -19,13 +19,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/login" element={<Login />} />
-        <Route exact path="/login" component={<Login />} />
+       
         <Route path="/women" element={<Women />} />
         <Route path="/men" element={<Men />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/electronics" element={<Electronics />} />
-        <Route path="*" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
   </BrowserRouter>
     </div>

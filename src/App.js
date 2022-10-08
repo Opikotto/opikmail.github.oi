@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { HashRouter,Routes,Route } from "react-router-dom";
 import Login from './view/login/Login';
 import Homepage from './view/homepage/Homepage';
 import { useSelector } from "react-redux";
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
      
-    <BrowserRouter basename="/app">
+    <HashRouter basename='/Login' >
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/electronics" element={<Electronics />} />
        
       </Routes>
-  </BrowserRouter>
+  </HashRouter >
     </div>
   );
 }

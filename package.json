@@ -1,7 +1,7 @@
 {
   "name": "whalez-fontend-dev-test",
   "version": "0.1.0",
-  "homepage": "https://Opikotto.github.io/opikmail13/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.5",

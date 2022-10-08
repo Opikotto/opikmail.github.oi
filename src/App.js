@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
      
-    <BrowserRouter>
+    <BrowserRouter basename="/app">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />

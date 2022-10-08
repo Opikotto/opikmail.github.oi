@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/opikmail13/static/css/main.78236893.css",
-    "main.js": "/opikmail13/static/js/main.f521a9aa.js",
+    "main.js": "/opikmail13/static/js/main.8aaba16c.js",
     "static/js/787.a093b508.chunk.js": "/opikmail13/static/js/787.a093b508.chunk.js",
     "index.html": "/opikmail13/index.html",
     "main.78236893.css.map": "/opikmail13/static/css/main.78236893.css.map",
-    "main.f521a9aa.js.map": "/opikmail13/static/js/main.f521a9aa.js.map",
+    "main.8aaba16c.js.map": "/opikmail13/static/js/main.8aaba16c.js.map",
     "787.a093b508.chunk.js.map": "/opikmail13/static/js/787.a093b508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78236893.css",
-    "static/js/main.f521a9aa.js"
+    "static/js/main.8aaba16c.js"
   ]
 }

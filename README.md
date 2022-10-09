@@ -1,5 +1,5 @@
 1.Redux Toolkit
-2.Axios
+2.Axios with (https://fakestoreapi.com/)
 3.page > 4
 3.Authentication ( Use localStorage )
 4.CSS Framework ( Tailwind )
